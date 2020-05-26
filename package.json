@@ -1,0 +1,28 @@
+{
+  "name": "paper-scroll-sdk",
+  "version": "1.0.0",
+  "description": "A simple wrapper for VK game PaperScroll!",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KotRikD/paper-scroll-sdk-node.git"
+  },
+  "keywords": [
+    "paper-scroll",
+    "sdk",
+    "node.js",
+    "node"
+  ],
+  "author": "KotRikD",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/KotRikD/paper-scroll-sdk-node/issues"
+  },
+  "homepage": "https://github.com/KotRikD/paper-scroll-sdk-node#readme",
+  "dependencies": {
+    "axios": "^0.19.2"
+  }
+}
