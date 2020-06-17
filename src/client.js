@@ -35,7 +35,7 @@ class PaperScrollClient {
 
             return result.data['response']
         } catch(e) {
-            if (!(e instanceof ApiError) && e.response.status === 400) {
+            if (!(e instanceof ApiError) && ('response' in e) && e.response.status === 400) {
                 throw new ApiError(
                     e.response.data['error']['error_code'],
                     e.response.data['error']['error_msg'],
