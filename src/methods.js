@@ -57,7 +57,7 @@ class PaperScrollMethods {
     /**
      * Запускает выполнение нового перевода
      *
-     * @param {Object} transferObject объект перевода состоящий из peer_id, object_type, object_type_id, amount
+     * @param {Object} transferObject объект перевода состоящий из peer_id, object_type, object_type_id, amount, message
      * @returns {*|Promise<AxiosResponse<T>>|Promise<*>}
      */
     createTransfer(transferObject = {}) {
